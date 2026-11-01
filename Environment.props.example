@@ -1,0 +1,6 @@
+<Project><PropertyGroup>
+  <VALHEIM_INSTALL>C:/Program Files (x86)/Steam/steamapps/common/Valheim</VALHEIM_INSTALL>
+  <BEPINEX_PATH>C:/path/to/profile/BepInEx</BEPINEX_PATH>
+  <EPICLOOT_DLL>$(BEPINEX_PATH)/plugins/RandyKnapp-EpicLoot/EpicLoot.dll</EPICLOOT_DLL>
+  <JOTUNN_DLL>$(BEPINEX_PATH)/plugins/ValheimModding-Jotunn/Jotunn.dll</JOTUNN_DLL>
+</PropertyGroup></Project>

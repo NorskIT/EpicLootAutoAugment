@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup><TargetFramework>net481</TargetFramework><AssemblyName>EpicLootAutoAugment.RuntimeSmoke</AssemblyName></PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="../../src/Plugin/Plugin.csproj" />
+    <Reference Include="BepInEx" HintPath="$(BEPINEX_PATH)/core/BepInEx.dll" Private="false" />
+    <Reference Include="0Harmony" HintPath="$(BEPINEX_PATH)/core/0Harmony.dll" Private="false" />
+    <Reference Include="EpicLoot" HintPath="$(EPICLOOT_DLL)" Private="false" />
+    <Reference Include="Jotunn" HintPath="$(JOTUNN_DLL)" Private="false" />
+    <Reference Include="$(VALHEIM_INSTALL)/valheim_Data/Managed/UnityEngine*.dll" Private="false" />
+    <Reference Include="Unity.TextMeshPro" HintPath="$(VALHEIM_INSTALL)/valheim_Data/Managed/Unity.TextMeshPro.dll" Private="false" />
+    <Reference Include="assembly_valheim" HintPath="$(VALHEIM_INSTALL)/valheim_Data/Managed/assembly_valheim.dll" Private="false" />
+    <Reference Include="assembly_utils" HintPath="$(VALHEIM_INSTALL)/valheim_Data/Managed/assembly_utils.dll" Private="false" />
+    <Reference Include="assembly_guiutils" HintPath="$(VALHEIM_INSTALL)/valheim_Data/Managed/assembly_guiutils.dll" Private="false" />
+  </ItemGroup>
+</Project>

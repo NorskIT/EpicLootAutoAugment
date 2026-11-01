@@ -1,0 +1,4 @@
+<Project>
+  <Import Project="$(MSBuildThisFileDirectory)Environment.props" Condition="Exists('$(MSBuildThisFileDirectory)Environment.props')" />
+  <PropertyGroup><LangVersion>latest</LangVersion><Nullable>enable</Nullable><Deterministic>true</Deterministic><Version>0.1.0</Version></PropertyGroup>
+</Project>
