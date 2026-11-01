@@ -1,5 +1,9 @@
 # Changelog
 
+## 0.2.0
+
+- Use a compact 384 × 384 image in the README. Mod behavior is unchanged.
+
 ## 0.1.0 — test build
 
 - Client-only automatic augment targeting one effect and optional minimum value.

@@ -21,7 +21,7 @@ namespace EpicLootAutoAugment;
 [NetworkCompatibility(CompatibilityLevel.NotEnforced, VersionStrictness.None)]
 public sealed class Plugin : BaseUnityPlugin
 {
-    public const string Id = "norskit.epiclootautoaugment", Version = "0.1.0";
+    public const string Id = "norskit.epiclootautoaugment", Version = "0.2.0";
     internal static Plugin Instance = null!;
     private Harmony? harmony;
     private readonly List<AugmentController> controllers = new();

@@ -1,7 +1,10 @@
 param([string]$Archive)
 $ErrorActionPreference = 'Stop'
 $root = [IO.Path]::GetFullPath((Join-Path $PSScriptRoot '..'))
-if (!$Archive) { $Archive = Join-Path $root 'artifacts/EpicLootAutoAugment-0.1.0.zip' }
+if (!$Archive) {
+    $manifest = Get-Content -LiteralPath (Join-Path $root 'packaging/manifest.json') -Raw | ConvertFrom-Json
+    $Archive = Join-Path $root "artifacts/EpicLootAutoAugment-$($manifest.version_number).zip"
+}
 Add-Type -AssemblyName System.IO.Compression, System.IO.Compression.FileSystem
 $testRoot = Join-Path $root ('artifacts/zip-tests-' + [Guid]::NewGuid().ToString('N'))
 New-Item -ItemType Directory $testRoot | Out-Null

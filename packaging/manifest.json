@@ -1,6 +1,6 @@
 {
   "name": "EpicLootAutoAugment",
-  "version_number": "0.1.0",
+  "version_number": "0.2.0",
   "website_url": "https://github.com/NorskIT/EpicLootAutoAugment",
   "description": "Client-only automatic EpicLoot augmenting. Choose an effect and optional minimum value; stop on a match or when materials run out.",
   "dependencies": ["denikson-BepInExPack_Valheim-5.4.2360", "RandyKnapp-EpicLoot-0.15.5", "ValheimModding-Jotunn-2.30.2"]

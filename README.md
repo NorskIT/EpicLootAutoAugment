@@ -1,6 +1,6 @@
 # EpicLoot Auto Augment
 
-![EpicLoot Auto Augment](https://raw.githubusercontent.com/NorskIT/EpicLootAutoAugment/main/images/epicloot-auto-augment.png)
+![EpicLoot Auto Augment](https://raw.githubusercontent.com/NorskIT/EpicLootAutoAugment/main/images/readme-cover.png)
 
 Skip the repetitive clicking at the enchanting table. Choose an effect and let Auto Augment keep trying until it appears or you run out of materials.
 
